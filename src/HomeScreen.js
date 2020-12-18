@@ -113,7 +113,7 @@ const HomeScreen = () => {
   return (
     <View style={styles.container}>
       <View style={styles.headerContainer}>
-        <Text style={styles.heading}>Hi, Doctor</Text>
+        <Text style={styles.heading}>Hi, Zaheer</Text>
         <Text style={styles.desc}>How are you feeling ?</Text>
       </View>
       <View style={styles.faceContainer}>
@@ -144,7 +144,7 @@ const HomeScreen = () => {
             <Text style={styles.btnBookText}>Start Appointment</Text>
           </LinearGradient>
         </TouchableOpacity>
-        <CardHome
+        {/* <CardHome
           title="Recommended"
           info={{
             name: 'Syed M Moeen Shah',
@@ -155,7 +155,7 @@ const HomeScreen = () => {
             rating: 4,
             tag: 'Wellness',
           }}
-        />
+        /> */}
       </View>
     </View>
   );
