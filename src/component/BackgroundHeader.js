@@ -12,7 +12,7 @@ const BackgroundHeader = ({style}) => {
       start={{x: 0, y: 0}}
       end={{x: 1, y: 0}}
       style={[styles.lineargGradient, style]}
-      colors={['#000000', '#111111', '#333333']}>
+      colors={['#000000', '#000000', '#000000']}>
       <View style={styles.line} />
       <View style={[styles.line, {top: 130, left: -150}]} />
       <View style={[styles.line, {top: 160, left: 0}]} />

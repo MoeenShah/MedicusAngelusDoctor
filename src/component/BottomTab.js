@@ -11,7 +11,7 @@ const BottomTab = ({selected, onSelected}) => {
         return (
           <TouchableOpacity key={e} onPress={() => onSelected(i)}>
             <AntDesign
-              color={selected == i ? '#000000' : '#999999'}
+              color={selected == i ? '#999999' : '#222'}
               name={e}
               size={32}
             />
